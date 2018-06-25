@@ -29,7 +29,7 @@ class Student():
         return "Name : "+self.name + "\n" + "Lessons : "+self.lessons + "\n" + "Assignements : "+self.assignments+"\n"+"Errors : "+self.errors
 
 def getData(url,college):
-    os.environ["Path"] += os.getcwd().join("phantomjs.exe")
+    #os.environ["Path"] += os.getcwd().join("phantomjs.exe")
     from selenium import webdriver
 
     browser = webdriver.PhantomJS()
